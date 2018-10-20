@@ -1,10 +1,10 @@
 from colorama import Fore
 from color import *
 
-# Черный: B, Белый: W, Пустой: ., Граничный: #
+# Черный: Ч, Белый: Б, Пустой: ., Граничный: #
 EMPTY = '.'
-BLACK = colorize('B', Fore.BLUE)
-WHITE = colorize('W', Fore.WHITE)
+BLACK = colorize('Ч', Fore.BLUE)
+WHITE = colorize('Б', Fore.WHITE)
 OUTER = colorize('#', Fore.RED)
 # Все виды тайлов
 PIECES = (EMPTY, BLACK, WHITE, OUTER)
